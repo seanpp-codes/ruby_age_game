@@ -17,7 +17,7 @@ class App
   end
 
   def create_user
-    puts "What is your first name?".blue
+    puts "What is your first name?".cyan
     f_name = gets.strip
     puts "What is your last name?".blue
     l_name = gets.strip
